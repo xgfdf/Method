@@ -9,6 +9,16 @@ public class MethodDetail {
         int[] res = a.getSumAndSub(2,6);
         System.out.println(Arrays.toString(res));
 
+        //细节:调用带参数的方法时，一定对应着参数列表传入相同类型或兼容类型的参数
+        //byte类型可以自动转换成int
+
+        //这样就不行了
+        // System.out.println(a.getSumAndSub(1.1,1.5));
+        byte n_1 = 1;
+        byte n_2 = 2;
+        System.out.println(a.getSumAndSub(n_1,n_2));
+
+
         a.f2();
 
 
@@ -25,6 +35,10 @@ class AA{
         resArr[0] = n1 + n2;
         resArr[1] = n1 - n2;
         return resArr;
+
+
+
+
     }
 
     //返回类型可以为任意类型，基本类型和引用类型（数组、对象）
