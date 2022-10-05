@@ -12,6 +12,10 @@ public class MethodExercise01 {
             System.out.println("是奇数");
         }else System.out.println("是偶数");
 
+
+        //使用print方法
+        a.print(4,5,'@');;
+
     }
 }
 
@@ -32,5 +36,28 @@ class AA01{
         return n%2 != 0;
 
     }
+
+    /*
+    根据行、列、字符打印对应行数和列数的字符，
+    比如:行: 4,列: 4,字符 #,则打印相应的效果
+
+*   1 方法的返回类型 void
+    2 方法的名字isodd
+    3 方法的形参(int int char)
+    4 方法体：循环
+* */
+    public void print(int n1, int n2,char a){
+        for (int i = 0; i < n1; i++) {
+            for (int j = 0; j < n2; j++) {
+                System.out.print(a);
+            }
+            System.out.println();
+
+        }
+    }
+
+
+
+
 }
 
