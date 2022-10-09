@@ -3,10 +3,8 @@ package gao.Recursion;
 public class Recursion01 {
     public static void main(String[] args) {
         T t1 = new T();
-        //t1.test(4);
+        t1.test(4);
 
-        int b = t1.f1(7);
-        System.out.println(b);
 
 
     }
@@ -23,17 +21,10 @@ class T{
         //一个test（）就对应一个栈空间，if语句执行完也要继续执行System语句去将栈空间完全释放
 
 
-    }
-
-
-    //斐波那契数列
-    public int f1(int n){
-        if (n==1||n==2){
-            return 1;
-        }else  return f1(n-1)+f1(n-2);
-
 
 
     }
+
+
 
 }
