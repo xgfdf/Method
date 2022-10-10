@@ -8,6 +8,7 @@ public class Method01 {
         //方法写好后，可以不去调用
         //先创建对象，然后调用方法
         Person p1 = new Person();
+
         p1.speak(); //调用方法，计算机会去找Person里面的speak()方法
         p1.cal01();
 
