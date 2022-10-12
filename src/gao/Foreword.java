@@ -30,6 +30,9 @@ class Cat{
     //属性,也叫成员变量
 
     //猫的名字
+
+
+
     String name;  //属性、成员变量、字段
     int age; //猫的年龄
     String color; //猫的颜色

@@ -8,12 +8,13 @@ public class Encapsulation01 {
         //age是私有化的，没办法直接赋值
         //person.age =
 
-        person.setName("塞缝经脑塞缝 塞缝");//就给person设置了一个名字进去
+        person.setName("塞缝经脑");//就给person设置了一个名字进去
 
         person.setAge(150);
         person.setSalary(30000);
 
         System.out.println(person.info());
+        System.out.println(person.name);
         //此时还没有设置条件，比如年龄在1~120之间，怎么设置呢？？
 
         //怎么设置名字的长度呢

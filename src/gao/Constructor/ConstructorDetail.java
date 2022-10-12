@@ -4,6 +4,9 @@ public class ConstructorDetail {
     public static void main(String[] args) {
         Person_D person_d = new Person_D("小明",20);
 
+        Person_D person_d1 = new Person_D("tom");
+        System.out.println(person_d1.name);
+
     }
 }
 /*
