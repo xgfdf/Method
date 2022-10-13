@@ -2,12 +2,12 @@ package gao.Encape;
 
 public class Account {
 
-    //为了封装，讲3个属性设置完成private
+    //为了封装，讲3个属性设置成private
     private String name;
     private double balance;
     private String password;
 
-    //现在有个默认午餐构造器，没办法直接赋值了
+    //现在有个默认无参构造器，没办法直接赋值了
 
     //  所以我们提供一个无参构造器和有三个属性的构造器
 

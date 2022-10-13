@@ -8,6 +8,7 @@ package gao.Extend;
 * 能否简化一次啊，提高代码复用性！！
 * */
 public class Graduate {
+
     public String name;
     public int age;
     private double score;
@@ -20,6 +21,7 @@ public class Graduate {
 
     }
     public void showInfo(){
+
         System.out.println("大学生名字 "+name+" 年龄 "+age+" 成绩"+score);
     }
 

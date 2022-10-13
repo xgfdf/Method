@@ -1,7 +1,7 @@
 package gao.Extend;
 
 //小学生类--->模拟考试
-public class Pupil {
+public class Pupil extends Extends01{
     public String name;
     public int age;
     private double score;

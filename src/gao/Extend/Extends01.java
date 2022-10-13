@@ -4,6 +4,7 @@ public class Extends01 {
     public static void main(String[] args) {
 
         Pupil pupil = new Pupil();
+
         pupil.name = "银角大王";
         pupil.age = 10;
 
@@ -17,5 +18,6 @@ public class Extends01 {
         graduate.testing();
         graduate.setScore(100);
         graduate.showInfo();
+
     }
 }
