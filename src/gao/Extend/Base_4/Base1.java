@@ -1,4 +1,4 @@
-package gao.Extend.Base_2;
+package gao.Extend.Base_4;
 
 public class Base1 {
 
@@ -8,8 +8,14 @@ public class Base1 {
     private int n4 = 400;
 
 
+    public Base1() {
+    }
 
     public Base1(String name, int age) {
         System.out.println("父类的(String name,int age)被调用");
+    }
+    
+    public Base1(String name) {
+        System.out.println("父类的(String name)被调用");
     }
 }

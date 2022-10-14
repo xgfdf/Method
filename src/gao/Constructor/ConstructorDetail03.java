@@ -2,7 +2,7 @@ package gao.Constructor;
 
 public class ConstructorDetail03 {
     public static void main(String[] args) {
-        //Dog03 dog03 = new Dog03();  这样不穿参数就不对了！！
+        //Dog03 dog03 = new Dog03();  这样不传参数就不对了！！
 
         Dog03 dog03 = new Dog03("小明");
         System.out.println(dog03.name);

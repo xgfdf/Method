@@ -6,6 +6,8 @@ public class Constructor01 {
         Person p1 = new Person("smith",100);
 
         System.out.println(p1.name+"\t"+p1.age);
+
+        System.out.println(new Person(1, 2, 3));
     }
 }
 class Person{
@@ -21,5 +23,7 @@ class Person{
         age = pAge;
     }
 
+    public Person(int a,int b,int c) {
 
+    }
 }
