@@ -5,6 +5,7 @@ public class Sub1 extends Base1{
     public Sub1() {
         //
         super("smith",18);
+        //this("dsd");//Call to 'this()' must be first statement in constructor body
         System.out.println("子类的Sub1()构造器被调用");
     }
 
