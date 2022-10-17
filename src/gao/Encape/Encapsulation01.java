@@ -91,6 +91,6 @@ class Person{
     //封装后在本类可以直接访问
     //在其他类必须使用set、get方法！
     public String info(){
-        return (getName()+age+salary);
+        return (name+age+salary);
     }
 }
