@@ -87,7 +87,10 @@ class Person{
     }
 
     //写一个方法，返回属性信息
+
+    //封装后在本类可以直接访问
+    //在其他类必须使用set、get方法！
     public String info(){
-        return (name+age+salary);
+        return (getName()+age+salary);
     }
 }
