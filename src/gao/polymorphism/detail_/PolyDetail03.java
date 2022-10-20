@@ -8,6 +8,8 @@ public class PolyDetail03 {
 
         //aa 编译类型 AA, 运行类型是BB
         //BB是AA子类
+
+        //instanceof比较操作符，用于判断对象的运行类型是否为XX类型或XX(类型的子类型)
         AA aa = new BB();
         System.out.println(aa instanceof AA);
         System.out.println(aa instanceof BB);

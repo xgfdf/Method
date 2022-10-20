@@ -1,4 +1,4 @@
-package gao.polymorphism;
+package gao.polymorphism.foreword;
 
 public class Polymorphism01 {
     public static void main(String[] args) {

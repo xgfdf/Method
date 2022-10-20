@@ -1,6 +1,6 @@
-package gao.polymorphism;
+package gao.polymorphism.foreword;
 
-public class Fish extends Food{
+public class Fish extends Food {
     //父类已经把默认构造器覆盖了
     public Fish(String name) {
 

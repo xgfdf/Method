@@ -1,4 +1,6 @@
-package gao.polymorphism;
+package gao.polymorphism.foreword;
+
+import gao.polymorphism.foreword.*;
 
 public class Master {
     private String name;
@@ -21,13 +23,13 @@ public class Master {
     }
 
     //主人给 狗 喂食物
-    public void feed(Dog dog,Food food){
+    public void feed(Dog dog, Food food){
 
         //)提供一个公共的(public)的get方法， 用于获取属性的值
 
         System.out.println("主人"+name +" 给 "+ dog.getName()+" 吃 " + food.getName());
     }
-    public void feed(Cat cat,Fish fish){
+    public void feed(Cat cat, Fish fish){
         System.out.println("主人"+name +" 给 "+ cat.getName()+" 吃 " + fish.getName());
     }
     //如果动物很多，食物也多
@@ -39,7 +41,7 @@ public class Master {
 
     //animal 编译类型是Animal,可以指向（接受）Animal子类的对象;-
     //food 编译类型是Food,可以指向（接受）Food子类的对象;
-    public void food_poly(Animal animal,Food food){
+    public void food_poly(Animal animal, Food food){
         System.out.println("主人"+name +" 给 "+ animal.getName()+" 吃 " + food.getName());
     }
     }

@@ -1,4 +1,4 @@
-package gao.polymorphism;
+package gao.polymorphism.foreword;
 
 public class Food {
     private String name;

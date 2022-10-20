@@ -1,6 +1,6 @@
-package gao.polymorphism;
+package gao.polymorphism.foreword;
 
-public class Bone extends Food{
+public class Bone extends Food {
 
     //当创建子类对象时，不管使用子类的哪个构造器，默认情况下总会去调用父类的无参构造器；
     // ===如果父类没有提供无参构造器，则必须在子类的构造器中用super
