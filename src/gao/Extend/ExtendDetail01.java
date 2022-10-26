@@ -19,6 +19,8 @@ public class ExtendDetail01 {
             子类Sub()构造器被调用...
         */
 
+        sub1.test100();
+
 
 
 
